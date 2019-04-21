@@ -1,5 +1,5 @@
 # Realtime Chat app
-## using
+## with
 - React
 - Redux
 - Socket.io
