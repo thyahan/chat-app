@@ -1,0 +1,77 @@
+@import "~antd/dist/antd.css";
+
+.app {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+input {
+  height: 32px;
+  &.message {
+    width: 100%;
+    margin: 0 3px 0 0;
+  }
+}
+
+.chat {
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-input {
+  width: 100%;
+  display: flex;
+}
+
+.message-view {
+  min-height: 50vh;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-bottom: 3px;
+  padding: 1rem;
+}
+
+.message-text {
+  width: 100%;
+  background: transparent;
+  margin-top: 1rem;
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    margin-right: 0.5rem;
+  }
+  .text {
+    height: 200px;
+    line-height: 1.7;
+    padding: 0.5rem 1rem;
+    border: 1px transparent;
+    border-radius: 10px;
+    text-align: left;
+  }
+  #empty-img {
+    width: 32px;
+    margin-right: 0.5rem;
+  }
+}
+
+.user-view {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0.2rem 0;
+  img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  span {
+    padding-left: 1rem;
+    color: slategray;
+    line-break: 1.7;
+  }
+}
